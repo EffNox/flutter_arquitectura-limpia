@@ -1,0 +1,38 @@
+@V1 = https://api.themoviedb.org/3
+@KEY = api_key=117119b8381f41b4a889648b6d83078f
+@TK = {{ACCESS.response.body.request_token}}
+@SID = {{SESSIONID.response.body.session_id}}
+# Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMTcxMTliODM4MWY0MWI0YTg4OTY0OGI2ZDgzMDc4ZiIsInN1YiI6IjVlMzgzMmFjOThmMWYxMDAxMjA2OTViNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.pxzSawG-_iM5IiB6uBoOB7cpO-lFGQAFDVu85P_E2_o
+
+###~###~###~###~###~### Create Request Token
+# @name ACCESS
+GET {{V1}}/authentication/token/new?{{KEY}}
+
+###~###~###~###~###~### Create Session With Login
+POST {{V1}}/authentication/token/validate_with_login?{{KEY}}
+
+{
+   "username": "NixRoYal",
+   "password": "password1999",
+   "request_token": "{{TK}}"
+}
+
+###~###~###~###~###~### Create Session
+# @name SESSIONID
+POST {{V1}}/authentication/session/new?{{KEY}}
+
+{ "request_token": "{{TK}}" }
+
+
+
+
+###~###~###~###~###~### ACCOUNT INFO
+GET {{V1}}/account?{{KEY}}&session_id={{SID}}
+
+
+###~###~###~###~###~### TENDENCIA EN PELÍCULAS
+GET {{V1}}/trending/movie/day?{{KEY}}&page=2
+
+
+###~###~###~###~###~### TENDENCIA EN ACTORES
+GET {{V1}}/trending/person/day?{{KEY}}&page=2

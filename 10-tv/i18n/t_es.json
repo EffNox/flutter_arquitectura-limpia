@@ -1,0 +1,34 @@
+{
+    "misc": {
+        "requestFailed": "Solicitud Fallida",
+        "retry": "Reintentar",
+        "textLoading": "CARGANDO...",
+        "textOffline": "Sin internet"
+    },
+    "signin": {
+        "usr": "Usuario",
+        "pwd": "Contraseña",
+        "signin": "Iniciar sesión",
+        "errors": {
+            "usr": "Usuario inválido",
+            "pwd": "Contraseña inválida",
+            "submit": {
+                "notFound": "No se encontró",
+                "unauthorized": "Contraseña inválida",
+                "network": "Error de red",
+                "unknown": "Error desconocido",
+                "notVerified": "Cuenta no verificada"
+            }
+        }
+    },
+    "home": {
+        "trending": "TENDENCIA",
+        "dropDownButton": {
+            "last24": "Últimas 24 horas",
+            "lastWeek": "Última semana"
+        }
+    },
+    "movie": {
+        "cast": "Elenco"
+    }
+}

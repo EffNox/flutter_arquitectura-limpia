@@ -1,0 +1,10 @@
+{
+    "helloWorld": "Hello World",
+    "summary": "SUMMARY",
+    "productName": "Product: {name} {emoji}",
+    "price": "Price: {price}",
+    "releaseDate": "Release date: {date}",
+    "payNow": "PAY NOW {total}",
+    "successfulPay": "Successful purchase",
+    "payDues": "¡PAY IN INSTALLMENTS!"
+}

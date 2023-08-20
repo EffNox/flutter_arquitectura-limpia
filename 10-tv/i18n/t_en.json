@@ -1,0 +1,35 @@
+{
+    "misc": {
+        "requestFailed": "Request Failed",
+        "retry": "Retry",
+        "textLoading": "LOADING...",
+        "textOffline": "Offline"
+    },
+    "splash": {},
+    "signin": {
+        "usr": "Username",
+        "pwd": "Password",
+        "signin": "Sign In",
+        "errors": {
+            "usr": "Invalid username",
+            "pwd": "Invalid password",
+            "submit": {
+                "notFound": "Not Found",
+                "unauthorized": "Invalid password",
+                "network": "Network error",
+                "unknown": "Error unknown",
+                "notVerified": "Email not verified"
+            }
+        }
+    },
+    "home": {
+        "trending": "TRENDING",
+        "dropDownButton": {
+            "last24": "Last 24h",
+            "lastWeek": "Last Week"
+        }
+    },
+    "movie": {
+        "cast": "Cast"
+    }
+}

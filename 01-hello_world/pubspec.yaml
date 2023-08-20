@@ -1,0 +1,80 @@
+name: hello_world
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.1.0-155.0.dev <4.0.0"
+
+dependencies:
+  cached_network_image: ^3.2.3
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/goku.png
+
+  fonts:
+    - family: CustomIcons
+      fonts:
+        - asset: assets/icons/CustomIcons.ttf
+
+    - family: Grandstander
+      fonts:
+        - asset: assets/fonts/grandstander/Grandstander-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/grandstander/Grandstander-ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/grandstander/Grandstander-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/grandstander/Grandstander-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/grandstander/Grandstander-Light.ttf
+          weight: 300
+        - asset: assets/fonts/grandstander/Grandstander-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/grandstander/Grandstander-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/grandstander/Grandstander-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/grandstander/Grandstander-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/grandstander/Grandstander-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/grandstander/Grandstander-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/grandstander/Grandstander-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/grandstander/Grandstander-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/grandstander/Grandstander-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/grandstander/Grandstander-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/grandstander/Grandstander-Black.ttf
+          weight: 900
+        - asset: assets/fonts/grandstander/Grandstander-BlackItalic.ttf
+          weight: 900
+          style: italic
+
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/pacifico/Pacifico-Regular.ttf
+    - family: IndieFlower
+      fonts:
+        - asset: assets/fonts/indie/IndieFlower-Regular.ttf

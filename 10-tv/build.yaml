@@ -1,0 +1,19 @@
+targets:
+  $default:
+    builders:
+
+      json_serializable:
+        generate_for:
+          include:
+            - lib/app/domain/models/* #todos los archivos de una carpeta
+            # - lib/app/domain/models/**/* # para carpetas y archivos dentro
+            # - lib/app/domain/failures/**/*
+            
+      freezed:
+        generate_for:
+          include: 
+            - lib/app/presentation/modules/**/**_state.dart
+            - lib/app/presentation/global/controllers/**/**_state.dart
+            - lib/app/domain/models/*
+            - lib/app/domain/failures/**/*
+            - lib/app/domain/either.dart

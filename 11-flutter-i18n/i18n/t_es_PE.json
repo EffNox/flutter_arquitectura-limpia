@@ -1,0 +1,10 @@
+{
+    "helloWorld": "Habla p causa",
+    "summary": "El detalle mi king",
+    "productName": "Producto: {name} {emoji} ta' faite el nombre",
+    "price": "Precio: {price} baratito mi rey, quieres pa' llevar?",
+    "releaseDate": "Fecha de estreno: {date}",
+    "payNow": "Paga nomás OE LACRA {total}",
+    "successfulPay": "Compra berracuda éxitosa",
+    "payDues": "¡Págalo con algún órgano bueno!"
+}
